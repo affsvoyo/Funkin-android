@@ -19,7 +19,7 @@ jobs:
       - name: Setup Haxe
         uses: krdlab/setup-haxe@v1
         with:
-          haxe-version: 4.2.5
+          haxe-version: 5.2.5
 
       - name: Cache haxelib
         uses: actions/cache@v4
